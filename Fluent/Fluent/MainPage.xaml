@@ -5,9 +5,12 @@
     xmlns:local="using:Fluent"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Windows10FallCreatorsUpdate="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract, 5)"
     mc:Ignorable="d">
+    <Windows10FallCreatorsUpdate:NavigationView   AlwaysShowHeader="False" Header="Hundred years solitude">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock Text="好久没有写UWP了！"></TextBlock>
-    </Grid>
+        <Grid>
+            <Image Source="ms-appx:///Assets/a.jpg" Stretch="UniformToFill"></Image>
+        </Grid>
+    </Windows10FallCreatorsUpdate:NavigationView>
 </Page>
